@@ -1,0 +1,64 @@
+.movie {
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.movie:hover {
+  transform: translateY(-2px);
+}
+
+
+.panel-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.btn-more {
+  padding: 25px;
+  border-radius: 50px;
+  margin: 10px;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  border: none;
+  outline: none;
+}
+
+.search-text {
+  outline: none;
+  align-self: center;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  background: black;
+  border: none;
+  margin: 12px;
+}
+
+.search-bar {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+
+.search-bar:hover {
+  transform: scale(1.1);
+}
+
+.search-btn {
+  align-self: center;
+  justify-self: center;
+  padding: 14px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
