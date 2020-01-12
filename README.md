@@ -1,3 +1,9 @@
+## About the App
+
+This App is developed using Angular. It can be used to search and find popular movies. It uses The Movie DB API. The same app developed using react can be found at https://github.com/PrajwalM2212/Movie-App
+
+
+
 ## How to use the app
 1. git clone https://github.com/PrajwalM2212/MovieApp.git
 
