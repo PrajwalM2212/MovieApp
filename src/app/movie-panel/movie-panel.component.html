@@ -15,7 +15,7 @@
     <div class="panel">
       <div *ngFor="let movie of movies">
         <div class='movie'>
-          <img [src]="imgUrl+movie.poster_path" [alt]="movie.title"/>
+          <img [src]="imgUrl+movie.poster_path" [alt]="movie.title" [routerLink]="['movies', movie.id]"/>
         </div>
       </div>
     </div>
