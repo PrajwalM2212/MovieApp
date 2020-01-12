@@ -7,6 +7,7 @@ import {MovieService} from './services/movie.service';
 import {HttpClientModule} from '@angular/common/http';
 import { MoviePanelComponent } from './movie-panel/movie-panel.component';
 import { MovieComponent } from './movie/movie.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MovieComponent } from './movie/movie.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     MovieService

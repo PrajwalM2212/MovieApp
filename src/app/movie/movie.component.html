@@ -1,1 +1,19 @@
-<p>movie works!</p>
+<div class='detail-panel'
+     [style.background-image]=
+       "'url(https://image.tmdb.org/t/p/original/'+movie.backdrop_path+')'">
+  <div style='flex: 1;'></div>
+  <div class='details'>
+    <div class='movie-card'>
+      <img [src]="'https://image.tmdb.org/t/p/w300/'+movie.poster_path" alt="image-poster"/>
+      <div class='overview'>{{movie.overview}}</div>
+      <div class='info'>
+        <div id='avg'>
+          {{movie.vote_average}}
+        </div>
+        <div id='release'>
+          {{movie.release_date}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

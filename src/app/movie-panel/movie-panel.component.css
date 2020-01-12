@@ -1,3 +1,10 @@
+h1 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 60px;
+}
+
 .movie {
   margin: 10px;
   flex-grow: 1;
@@ -6,7 +13,6 @@
 .movie:hover {
   transform: translateY(-2px);
 }
-
 
 .panel-page {
   display: flex;
